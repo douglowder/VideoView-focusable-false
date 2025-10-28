@@ -20,7 +20,7 @@ export default function HomeScreen() {
           </View>
         )}
       </Pressable>
-      <TVFocusGuideView focusable={false}>
+      <TVFocusGuideView autoFocus focusable={false}>
         <VideoView
           style={{
             height: 200,
